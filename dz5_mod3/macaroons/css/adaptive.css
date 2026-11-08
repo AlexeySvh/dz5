@@ -82,14 +82,15 @@
         width: 60%;
     }
 
-    .footer__present-text {
-        max-width: 120px;
-        height: auto;
-
+    .footer__present-info {
+        width: 100px;
+        height: 38px;
+        font-size: 8px;
+        padding: 7px;
     }
 
-    .footer__present:has(.footer__btn-present:hover) .footer__present-text {
-        top: 10px;
+    .footer__present:has(.footer__btn-present:hover) .footer__present-info {
+        top: 8px;
     }
 }
 
@@ -255,10 +256,6 @@
         height: 471px;
     }
 
-    .promo {
-        overflow: visible;
-    }
-
     .promo .container {
         padding-bottom: 43px;
     }
@@ -410,12 +407,8 @@
     }
 
     .header__burger {
-        display: block;
+        display: flex;
 
-    }
-
-    .header__burger img {
-        display: block;
     }
 
     .menu__list {
